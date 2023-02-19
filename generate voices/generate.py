@@ -4,9 +4,9 @@ import soundfile as sf
 import pyworld as pw
 
 # Define the factors to adjust the voice
-pitch_factors = np.linspace(0.5, 3, 3)
-timbre_factors = np.linspace(0.2, 3, 3)
-resonance_factors = np.linspace(0.3, 3, 3)
+pitch_factors = np.linspace(0.5, 2, 3)
+timbre_factors = np.linspace(0.2, 2, 3)
+resonance_factors = np.linspace(0.3, 2, 3)
 
 # Create the directory for the processed voices
 if not os.path.exists('processedVoices'):
